@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Expo Starter",
+    "scheme": "expostarter",
+    "slug": "expostarter",
+    "privacy": "hidden",
+    "version": "1.0.0",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "https://github.com/calebnance/expo-starter",
+    "orientation": "portrait",
+    "primaryColor": "#30778c",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#30778c",
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.domain.appname",
+      "requireFullScreen": false,
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.domain.appname",
+      "permissions": [],
+      "versionCode": 100
+    }
+  }
+}
